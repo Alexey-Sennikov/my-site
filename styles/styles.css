@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#cat-image {
+    max-width: 60%;
+    height: auto;
+    border-radius: 10%;
+}
+
+#todo-list {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#task-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#task-table th, #task-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
